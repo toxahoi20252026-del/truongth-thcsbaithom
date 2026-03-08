@@ -979,12 +979,12 @@ function MainApp() {
     }));
 
     // Council's Note
-    if (target.score < 6.0 || (target.similarity && target.similarity > 20)) {
+    if (target.score <= 5.9 || (target.similarity && target.similarity > 25)) {
       docElements.push(new Paragraph({
         children: [
           new TextRun({ text: "LƯU Ý CỦA HỘI ĐỒNG: ", bold: true, size: 28 }),
           new TextRun({
-            text: `Do Chỉ số đạo văn (Similarity) đạt mức ${target.similarity || 0}% ${target.similarity > 20 ? '(vượt ngưỡng 20%)' : ''} và mắc sai sót nghiêm trọng về thông tin địa phương cũng như mật độ lỗi chính tả quá cao (trên 10 lỗi), căn cứ theo quy tắc chấm điểm nghiêm ngặt, tổng điểm cuối cùng của sáng kiến bị khống chế và không đạt mức công nhận (Dưới 6.0 điểm). Tác giả cần nghiêm túc chỉnh sửa, cập nhật kiến thức địa phương và rà soát văn phong hành chính nếu có ý định nộp lại vào kỳ thẩm định sau.`,
+            text: `Do Chỉ số đạo văn (Similarity) đạt mức ${target.similarity || 0}% ${target.similarity > 25 ? '(từ 26% trở lên - vượt ngưỡng cho phép)' : ''} và tồn tại yếu điểm trong văn phong cũng như mật độ lỗi cao, căn cứ theo quy tắc chấm điểm nghiêm ngặt, tổng điểm cuối cùng của sáng kiến bị khống chế và không đạt mức công nhận (Mức điểm từ 5.9 trở xuống). Tác giả cần nghiêm túc chỉnh sửa, trau dồi lại cách hành văn và rà soát lỗi nếu có ý định nộp lại vào kỳ thẩm định sau.`,
             size: 28
           }),
         ],

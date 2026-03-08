@@ -184,7 +184,7 @@ export class GeminiService {
     2. Phản biện chuyên gia (Devil's Advocate): (Đặt ra 3 câu hỏi hóc búa).
     3. Chỉ số Khoa học & Độ tin cậy: (Đánh giá tính logic và xác thực).
 
-    VIII. BỘ CÂU HỎI PHỎNG VẤN PHẢN BIỆN (Interactive Defense Questions)
+    VIII. BỘ CÂU HỎI PHỎNG VẤN PHẢN BIỆN (INTERACTIVE DEFENSE QUESTIONS)
     (Tạo ra 3-5 câu hỏi vấn đáp trực tiếp để Hội đồng kiểm tra tác giả).
     Câu hỏi 1: ...
     Câu hỏi 2: ...
