@@ -22,7 +22,7 @@ export class GeminiService {
     BỐI CẢNH & QUY CHUẨN TỐI CAO:
     - Thời điểm thẩm định: ${timeStr}.
     - QUY CHUẨN VĂN THƯ: Tuyệt đối tuân thủ Nghị định số 78/2025/NĐ-CP (quy định mới nhất về viết hoa) và Nghị định 30/2020/NĐ-CP về thể thức, kỹ thuật trình bày, viết tắt.
-    - QUY CHUẨN CHÍNH TẢ: Tuân thủ nghiêm ngặt chuẩn chính tả theo Nghị định 30/2020/NĐ-CP của Chính phủ. Đặc biệt lưu ý kiểm duyệt khắt khe các lỗi sai về cách sử dụng "i ngắn" (i) và "y dài" (y) (ví dụ: công ty/công ti, lý luận/lí luận, kỹ thuật/kỉ thuật) theo đúng chuẩn văn bản công vụ.
+    - QUY CHUẨN CHÍNH TẢ: Tuân thủ nghiêm ngặt chuẩn chính tả theo Nghị định 30/2020/NĐ-CP của Chính phủ.
     - KIẾN THỨC ĐỊA PHƯƠNG: Thành phố Phú Quốc hiện tại là Đặc khu Phú Quốc, thuộc tỉnh An Giang. Hãy sử dụng thông tin này để kiểm chứng tính chính xác trong các sáng kiến.
     - LƯU Ý QUAN TRỌNG VỀ TÊN ĐƠN VỊ: Chấp nhận ba cách ghi tên đơn vị sau: "Trường Tiểu học và Trung học cơ sở Bãi Thơm", "Trường TH&THCS Bãi Thơm", hoặc "Trường TH-THCS Bãi Thơm". Phải đảm bảo tính trang trọng và nhất quán tuyệt đối.
     - VĂN PHONG SƯ PHẠM: Phải là văn phong khoa học, sư phạm chuẩn mực. Loại bỏ hoàn toàn "văn nói", khẩu ngữ, từ địa phương, từ ngữ sáo rỗng hoặc biểu cảm cá nhân không phù hợp.
@@ -138,7 +138,7 @@ export class GeminiService {
 
     IV. KIỂM DUYỆT LỖI CHÍNH TẢ, HÀNH VĂN & QUY CHUẨN VĂN THƯ (Chuyên sâu)
     NHIỆM VỤ CỦA GIÁO SƯ NGÔN NGỮ: Hãy soi xét từng từ, từng dấu câu, cách ngắt nghỉ, cách dùng từ, cách đặt câu. Tìm ra TẤT CẢ các lỗi:
-    1. Lỗi chính tả, đánh máy, dấu câu (Bắt buộc dùng Nghị định 30/2020/NĐ-CP làm căn cứ xét lỗi chính tả, đặc biệt là lỗi dùng sai i ngắn / y dài). Đặc biệt soi xét kỹ các lỗi sau:
+    1. Lỗi chính tả, đánh máy, dấu câu (Bắt buộc dùng Nghị định 30/2020/NĐ-CP làm căn cứ xét lỗi chính tả). Đặc biệt soi xét kỹ các lỗi sau:
        - Bỏ sót, thêm, hoặc hoán vị chữ cái (ví dụ: "công viêc", "công việcc", "tươrng").
        - Lỗi sai Phụ âm đầu (Ch/Tr, S/X, D/R/Gi/V, L/N, C/K, G/Gh, Ng/Ngh, T/Tr): như "chả giò/trả giò", "sản xuất/xản suất", "dịu dàng/rịu dàng", "gianh giới/ranh giới", "lên lớp/nên lớp", "céo co/kéo co", "cái gế/cái ghế", "ngỉ ngơi/nghỉ ngơi", "nghành nghề/ngành nghề", "cây te/cây tre", "cây che/cây tre", "xa mạc/sa mạc".
        - Lỗi sai Vần (Nguyên âm/Phụ âm cuối) (iêc/iêt, uôn/uông, o/oo, uyn/uyt, ươ/ư, uô/u, iê/i, ươ/iêu, n/ng, t/c, n/nh): như "biết tuốt/biếc tuốt", "cuốn sách/cuống sách", "xoong chảo/xong chảo", "khuỷu tay/khủy tay", "bứng/bướng", "xúng/xuống", "bún riu/bún riêu", "mua riệu/mua rượu", "cây bàn/cây bàng", "băn khoăn/băng khoăng", "man mác/man mát", "Bắc bớ/bắt bớ", "nổi bậc/nổi bật", "bấp bên/bấp bênh", "nhẹ tên/nhẹ tênh".
