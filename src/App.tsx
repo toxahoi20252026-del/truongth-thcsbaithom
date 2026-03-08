@@ -889,6 +889,31 @@ function MainApp() {
       }
 
       // Handle Sub-headings (1., 2., 3.)
+      const subHeadingColonMatch = cleanLine.match(/^(\d+\.[^:]+:)(.*)/);
+      if (subHeadingColonMatch) {
+        docElements.push(new Paragraph({
+          children: [
+            new TextRun({
+              text: subHeadingColonMatch[1],
+              bold: true,
+              size: 30,
+              color: BLUE_COLOR,
+            }),
+          ],
+          spacing: { before: 200, after: 150 },
+        }));
+
+        const textAfterColon = subHeadingColonMatch[2].trim();
+        if (textAfterColon) {
+          docElements.push(new Paragraph({
+            children: [new TextRun({ text: textAfterColon, size: 28 })],
+            spacing: { after: 120 },
+            alignment: AlignmentType.JUSTIFIED,
+          }));
+        }
+        continue;
+      }
+
       const subHeadingMatch = cleanLine.match(/^(\d+\.\s+.*)/);
       if (subHeadingMatch) {
         docElements.push(new Paragraph({
